@@ -1,3 +1,4 @@
 Hii, This is trisha acharya. Hope you all are doing good. 
 Hii Good evening....Welcome to git session
 GIT = Global Information Tracker.
+Git comes under distribution VCS
