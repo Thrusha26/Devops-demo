@@ -32,5 +32,10 @@ pipeline{
                 sh 'hostname -I'
             }
         }
+        stage("OS Details"){
+            steps{
+                sh 'cat /etc/os-release'
+            }
+        }
     }
 }
