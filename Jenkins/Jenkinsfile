@@ -9,7 +9,7 @@ pipeline{
         }
         stage("CPU Details"){
             steps{
-                sh 'ls cpu'
+                sh 'ls CPU'
             }
         }
         stage("Memory Details"){
