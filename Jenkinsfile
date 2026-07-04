@@ -29,9 +29,9 @@ pipeline{
         }
         stage ('Containerisation'){
             steps{
-                sh "
+                sh '''
                 docker run -it -d --name c8 -p 9008:8080 trishaa98/project-1
-                "
+                '''
             }
         }
         stage ('Login to Docker Hub'){
