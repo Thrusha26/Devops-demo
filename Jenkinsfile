@@ -12,9 +12,9 @@ pipeline{
                 git branch: 'dev' , url: 'https://github.com/Thrusha26/Devops-demo.git'
             }
         }
-        stage('Code Compile'){
+        stage('maven clean'){
             steps{
-                sh 'mvn compile'
+                sh 'mvn clean'
             }
         }
         stage('Code Package'){
