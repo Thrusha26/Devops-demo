@@ -24,7 +24,6 @@ pipeline{
         }
         stage('Build and tag'){
             steps{
-                sh 'docker version'
                 sh 'docker build -t trishaa98/project-1 .'
             }
         }
